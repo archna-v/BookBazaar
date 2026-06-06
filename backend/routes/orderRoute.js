@@ -7,7 +7,7 @@ router.get('/', orderController.getAllOrders);
 router.post('/add-to-cart', orderController.addToCart);
 
 // Get user's cart
-router.get('/:userId/cart', orderController.getUserCart);
+router.get('/:userId/cart', orderController.getUserCart); 
 
 // Remove product from cart
 router.delete('/remove-from-cart', orderController.removeFromCart);
