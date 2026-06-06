@@ -9,4 +9,4 @@ router.get('/:id',sellerController.fetchSeller);
 router.get('/', sellerController.getAllSellers);
 
 
-module.exports = router;
+module.exports = router; 
