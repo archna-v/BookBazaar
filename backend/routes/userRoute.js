@@ -8,4 +8,4 @@ router.post('/login',userController.loginUser);
 router.get('/search',userController.searchUsers)
 router.get('/:id',userController.fetchUser);
 
-module.exports= router;
+module.exports= router; 
