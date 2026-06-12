@@ -56,7 +56,7 @@ const ExploreBooks = () => {
             if (error.response && error.response.status === 400) {
                 toast.error(error.response.data.message);
             } else {
-                toast.error('Failed to add to cart');
+                toast.error('Failed to add to the cart');
             }
         }
     };
