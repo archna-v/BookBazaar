@@ -30,7 +30,7 @@ export default function AdminDashboard() {
         {/* User Details Box */}
         <div className="p-6 bg-white rounded-lg shadow-lg border border-gray-200">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">User Details</h2>
-          <p className="text-gray-600 mb-4">Total Users: {userCount}</p>
+          <p className="text-gray-600 mb-4">Total users: {userCount}</p>
           <Link
             to="/adminUserDetails"
             className="inline-block px-6 py-3 bg-blue-600 text-white hover:bg-blue-700"
